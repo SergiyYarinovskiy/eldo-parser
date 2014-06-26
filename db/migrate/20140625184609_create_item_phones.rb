@@ -5,7 +5,7 @@ class CreateItemPhones < ActiveRecord::Migration
       t.string :code
       t.string :name
       t.text :description
-      t.decimal :price
+      t.float :price
 
       t.timestamps
     end

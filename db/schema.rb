@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 20140625190354) do
     t.string   "code"
     t.string   "name"
     t.text     "description"
-    t.decimal  "price"
+    t.float    "price"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ee57c88-d6da-4696-b6f1-47369de8b11f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__eldo_parser.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Production__eldo_parser.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/eldo-parser.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/parser.rake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/parser.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/spec__eldo_parser.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/test__eldo_parser.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20140625184609_create_item_phones.rb" afterPath="$PROJECT_DIR$/db/migrate/20140625184609_create_item_phones.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/parser.rb" afterPath="$PROJECT_DIR$/lib/tasks/parser.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="eldo-parser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,28 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="item_phone.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/item_phone.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parser.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="parser.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/parser.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="16" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738">
+            <state line="28" column="39" selection-start="771" selection-end="771" vertical-scroll-proportion="0.48407644" vertical-offset="200" max-vertical-offset="1764">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="development.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <file leaf-file-name="20140625190354_create_attributes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20140625190354_create_attributes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.056162246" vertical-offset="0" max-vertical-offset="774">
+            <state line="7" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
               <folding />
             </state>
           </provider>
@@ -95,12 +73,12 @@
         <option value="$PROJECT_DIR$/db/migrate/20140625182544_create_attributes.rb" />
         <option value="$PROJECT_DIR$/app/models/attribute.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140625190354_create_attributes.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140625184609_create_item_phones.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/models/item_phone.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/1.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/parser.rake" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/db/migrate/20140625184609_create_item_phones.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/parser.rb" />
       </list>
     </option>
@@ -471,35 +449,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140625184609_create_item_phones.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="243" selection-end="243" vertical-scroll-proportion="0.28081122" vertical-offset="0" max-vertical-offset="641">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140625190354_create_attributes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.19656786" vertical-offset="0" max-vertical-offset="641">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/attribute.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="65" selection-end="65" vertical-scroll-proportion="0.056162246" vertical-offset="0" max-vertical-offset="641" />
+        <state line="2" column="3" selection-start="65" selection-end="65" vertical-scroll-proportion="0.056162246" vertical-offset="0" max-vertical-offset="641">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/parser.rake">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/item_phone.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/phone.rb">
@@ -523,16 +482,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/parser.rb">
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="16" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738">
+        <state line="2" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.056162246" vertical-offset="0" max-vertical-offset="774">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140625184609_create_item_phones.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.056162246" vertical-offset="0" max-vertical-offset="774">
+        <state line="3" column="25" selection-start="124" selection-end="124" vertical-scroll-proportion="0.08424337" vertical-offset="0" max-vertical-offset="641">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/item_phone.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.11232449" vertical-offset="0" max-vertical-offset="641">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140625190354_create_attributes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/parser.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="39" selection-start="771" selection-end="771" vertical-scroll-proportion="0.48407644" vertical-offset="200" max-vertical-offset="1764">
           <folding />
         </state>
       </provider>
