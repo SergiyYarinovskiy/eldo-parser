@@ -1,0 +1,36 @@
+<h1><%= @item_phone.name %></h1>
+<%=link_to 'Main', root_path %>
+<br><br>
+
+<table>
+  <tr>
+    <td>Код: </td><td><%= @item_phone.code %></td>
+  </tr>
+  <tr>
+    <td>Описание: </td><td><%= @item_phone.description %></td>
+  </tr>
+  <tr>
+    <td>Цена: </td><td><%= @item_phone.price %> грн.</td>
+  </tr>
+  <tr>
+    <td>Характеристики: </td>
+    <td>
+      <% @attributes.each do |key, value| %>
+        <strong><%= key %></strong>
+            <% value.each do |attribute| %>
+                <br><%= "#{attribute.name} #{attribute.value}" %>
+            <% end %>
+        <br><br>
+      <% end %>
+    </td>
+  </tr>
+  <tr>
+    <td>Фото: </td>
+    <td>
+      <% @item_phone.photos.each do |photo| %>
+          <%= link_to image_tag(photo.photo_img.url(:thumb)), photo.photo_img.url %>
+      <% end %>
+      <br><br>
+    </td>
+  </tr>
+</table>

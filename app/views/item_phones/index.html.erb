@@ -1,0 +1,11 @@
+<h1>Listing items for "<%= @phone.title %>"</h1>
+<%=link_to 'Main', root_path %>
+<br><br>
+
+<table>
+  <% @item_phones.each do |item_phone| %>
+      <tr>
+        <td><%=link_to item_phone.name, item_phone_path(item_phone) %></td>
+      </tr>
+  <% end %>
+</table>

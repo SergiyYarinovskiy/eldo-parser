@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+
+  resources :phones, only: [:index]
+  resources :item_phones, only: [:index, :show]
+
+  root 'phones#index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

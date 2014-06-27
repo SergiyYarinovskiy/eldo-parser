@@ -1,0 +1,9 @@
+<h1>Listing categories for phones</h1>
+
+<table>
+  <% @phones.each do |phone| %>
+      <tr>
+        <td><%=link_to phone.title, item_phones_path(phone: {phone_id: phone.id} ) %></td>
+      </tr>
+  <% end %>
+</table>

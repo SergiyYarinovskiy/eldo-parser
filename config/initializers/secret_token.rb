@@ -1,0 +1,1 @@
+EldoParser::Application.config.secret_token = 'a07350852632efa9b34bdb444f98e5eddc4fff48161a503337635dbfee4c24896a0c0023b1ae7915d7dcd8616e6dd93566d7ad6994c00ffeff96a6a54a2226b4'
